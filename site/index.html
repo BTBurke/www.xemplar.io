@@ -1,0 +1,12 @@
+---
+layout: home
+title: Xemplar
+---
+
+  <ul class="unstyled">
+    {% for post in site.posts limit:4 %}
+      <li>
+      <span class="label label-grayinfo">{{ post.date | date_to_string}}</span><span class="post_front"><a href="{{ post.url }}">{{ post.title }}</a></span>
+      </li>
+    {% endfor %}
+  </ul>
