@@ -3,10 +3,71 @@ layout: home
 title: Xemplar
 ---
 
-  <ul class="unstyled">
-    {% for post in site.posts limit:4 %}
-      <li>
-      <span class="label label-grayinfo">{{ post.date | date_to_string}}</span><span class="post_front"><a href="{{ post.url }}">{{ post.title }}</a></span>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html"><img
+              src="assets/img/logo-brand.png"></a>
+          <div class="nav-collapse">
+            <ul class="nav pull-right">
+                <li class="active"><a href="http://twitter.github.com/bootstrap/examples/hero.html#">Home</a></li>
+                <li><a
+                    href="solutions.html">Solutions</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+<div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+          <div class="row">
+          <div class="span10">
+              <h1>Solving big data problems in the toughest environments</h1>
+        <p>You have people and systems forward deployed in
+        places where power and bandwidth are scarce.  We have solutions that
+        give you the capability you need in the places you need it.</p>
+        <p><a class="btn btn-primary btn-large"
+            href="http://www.xemplar.io/solutions">Learn more »</a></p>
+          </div>
+      </div>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span6">
+          <h2>What we do</h2>
+           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn"
+              href="http://www.xemplar.io/technology">Learn
+              more about us »</a></p>
+        </div>
+        <div class="span6">
+          <h2>Latest from the blog</h2>
+
+            <ul class="unstyled">
+
+				{% for post in site.posts limit:4 %}
+				  <li>
+				  <span class="post_date">{{ post.date | date_to_string}}</span><span class="post_title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+				  </li>
+				{% endfor %}
+			  </ul>
+
+          <a class="btn"
+              href="http://www.xemplar.io/blog/">Read more»</a></p>
+       </div>
+      </div>
+
+<hr>

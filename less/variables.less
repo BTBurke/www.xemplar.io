@@ -46,14 +46,25 @@
 // Typography
 // -------------------------
 @baseFontSize:          13px;
-@baseFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@baseFontFamily:        "Open Sans", sans-serif;
+@altFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 @baseLineHeight:        18px;
-@altFontFamily:         Georgia, "Times New Roman", Times, serif;
+//@altFontFamily:         Georgia, "Times New Roman", Times, serif;
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
 @headingsFontWeight:    bold;    // instead of browser default, bold
 @headingsColor:         inherit; // empty to use BS default, @textColor
 
+// Post list
+// -------------------------
+@postTitleColor:              #0000ff;
+@postDateColor:               @textColor;
+@postDateFontSize:            9px;
+
+// Single Page
+// -------------------------
+@singleBackground:			@white;
+@singleHeadingColor:		@grayDarker;
 
 // Tables
 // -------------------------
@@ -63,13 +74,14 @@
 @tableBorder:                       #ddd; // table and cell border
 
 
+
 // Buttons
 // -------------------------
 @btnBackground:                     @white;
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         darken(@white, 20%);
 
-@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackground:              @green;
 @btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 15%);
 
 @btnInfoBackground:                 #5bc0de;
