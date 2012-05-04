@@ -694,3 +694,5 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .post_title a{color:#0000ff;}
 .single{padding:20px;margin-bottom:30px;background-color:#ffffff;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}.single h1{margin-bottom:10px;font-size:32px;line-height:1;color:#222222;letter-spacing:-1px;}
 .single p{font-size:13px;line-height:18px;color:#333333;}
+.banner{padding:30px;margin-bottom:30px;background:#01386e url(../img/banner.jpg) center no-repeat;}.banner h1{margin-bottom:10px;font-size:42px;line-height:1;color:#ffffff;letter-spacing:-1px;}
+.banner p{font-size:18px;font-weight:200;line-height:27px;color:#ffffff;}
