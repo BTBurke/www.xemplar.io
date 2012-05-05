@@ -692,7 +692,19 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .post_date{color:#333333;font-size:9px;margin-right:10px;}
 .post_title{color:#0000ff;}
 .post_title a{color:#0000ff;}
+.blog-post-title h2{font-size:32px;color:#01386e;}
+.blog-post-title h5{font-size:9px;margin-bottom:10px;}
+.blog-post-title p{font-size:15px;line-height:20.7px;*zoom:1;}.blog-post-title p:before,.blog-post-title p:after{display:table;content:"";}
+.blog-post-title p:after{clear:both;}
+.blog-post-title img{float:left;margin:4px;display:block;height:100px;overflow:hidden;*zoom:1;}.blog-post-title img:before,.blog-post-title img:after{display:table;content:"";}
+.blog-post-title img:after{clear:both;}
+.blog-post-title a{color:#01386e;}
+.read-more{margin-left:10px;}
+.blog-sidebar{background:url(http://127.0.0.1/assets/img/bg.png) repeat-x repeat-y;}
 .single{padding:20px;margin-bottom:30px;background-color:#ffffff;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}.single h1{margin-bottom:10px;font-size:32px;line-height:1;color:#222222;letter-spacing:-1px;}
 .single p{font-size:13px;line-height:18px;color:#333333;}
 .banner{padding:30px;margin-bottom:30px;background:#01386e url(../img/banner.jpg) center no-repeat;}.banner h1{margin-bottom:10px;font-size:42px;line-height:1;color:#ffffff;letter-spacing:-1px;}
+.banner h4{font-family:"Over the Rainbow",cursive;font-size:24px;color:#ffffff;}
 .banner p{font-size:18px;font-weight:200;line-height:27px;color:#ffffff;}
+.banner img{padding-right:10px;}
+.banner .blog p{font-family:"Over the Rainbow",cursive;font-size:24px;color:#ffffff;}

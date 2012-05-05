@@ -1,38 +1,30 @@
 ---
-layout: blog
-title: Xemplar Blog
+active: blog
+banner-word: Blog
 ---
+
+{% include header.html %}
+{% include banner.html %}
+
 <div class="container">
     <div class="row">
     <div class="span8">
-            <ul class="unstyled">
-                {% for post in site.posts %}
-                
-                <li>
+
                     <div class="blog-post-title">
-                     <h2><a href="{{ post.url}}">{{post.title}}</a></h2>
-                     <h5>Posted by {{ post.author }} on {{ post.date | date_to_string }}</h5>
-                     {% if post.image %}
-                        <p><img src="{{post.image}}">{{post.abstract }}  <a class="read-more" href="{{ post.url }}">Read more »</a></p>
-                     {% else %}
-                        <p>{{post.abstract }}  <a class="read-more" href="{{ post.url }}">Read more »</a></p>
-                     {% endif %}
-
+                     <h2>{{page.title}}</h2>
+                     <h5>Posted by {{ page.author }} on {{ page.date | date_to_string }}</h5>
+                    <p> {{ page.content }} </p>
                     </div>
-
-                </li>
-            <hr>
-    {% endfor %}
-</ul></div>
+                </div>
 <div class="span4">
     <div class="well">
  <h3>Stay connected</h3>
 			<a href="http://twitter.com/xemplarIO"><img
-                            src="../assets/img/twitter.png"></a><a
+                            src="{{site.url}}/assets/img/twitter.png"></a><a
                             href="http://www.linkedin.com/company/2556873"><img
-                            src="../assets/img/linkedin.png"></a><a
+                            src="{{site.url}}/assets/img/linkedin.png"></a><a
                             href="https://plus.google.com/b/115171007282149388568/"><img
-                            src="../assets/img/google.png"></a><img src="../assets/img/rss.png">
+                            src="{{site.url}}/assets/img/google.png"></a><img src="{{site.url}}/assets/img/rss.png">
 			<p>Receive new blog posts via email.</p>
 
 <!-- Begin MailChimp Signup Form -->
@@ -53,3 +45,5 @@ title: Xemplar Blog
 
 </div>
 </div></div>
+
+{% include footer.html %}
