@@ -26,3 +26,55 @@ a { color: @bannerBackground;}
     background: url(http://127.0.0.1/assets/img/bg.png) repeat-x repeat-y;
     }
 
+.blog-post-abstract {
+p { font-size: 15px;
+	font-color: @grayDark;
+	font-syle: italic;
+	line-height: @baseLineHeight *1.15;
+	margin-bottom: 10px;
+	}
+}
+
+.blog-post-content {
+p {
+	font-size: 15px;
+	line-height: @baseLineHeight * 1.15;
+	}
+}
+
+.blog-related-posts {
+ul {
+	margin-bottom: 10px;
+	}
+li {
+	color: @bannerBackground;
+	margin-bottom: 10px;
+}
+a {
+	color: @bannerBackground;
+	}
+}
+
+.fwd-back-posts {
+ul {
+	font-size: 10px;
+	color: @bannerBackground;
+	}
+li {
+	font-size: 10px;
+	color: @bannerBackground;
+	}
+a {
+	font-size: 10px;
+	color: @bannerBackground;
+	}
+}
+
+.post-bottom-share {
+	display: block;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	.clearfix()
+}

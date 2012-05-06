@@ -5,4 +5,4 @@ testing:
 	jekyll --url ${TESTING_URL}
 
 production:
-	jekyll --url ${PRODUCTION_URL}
+	jekyll --lsi --url ${PRODUCTION_URL}

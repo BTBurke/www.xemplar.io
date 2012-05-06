@@ -701,6 +701,16 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .blog-post-title a{color:#01386e;}
 .read-more{margin-left:10px;}
 .blog-sidebar{background:url(http://127.0.0.1/assets/img/bg.png) repeat-x repeat-y;}
+.blog-post-abstract p{font-size:15px;font-color:#333333;font-syle:italic;line-height:20.7px;margin-bottom:10px;}
+.blog-post-content p{font-size:15px;line-height:20.7px;}
+.blog-related-posts ul{margin-bottom:10px;}
+.blog-related-posts li{color:#01386e;margin-bottom:10px;}
+.blog-related-posts a{color:#01386e;}
+.fwd-back-posts ul{font-size:10px;color:#01386e;}
+.fwd-back-posts li{font-size:10px;color:#01386e;}
+.fwd-back-posts a{font-size:10px;color:#01386e;}
+.post-bottom-share{display:block;float:center;margin-left:auto;margin-right:auto;padding-bottom:10px;*zoom:1;}.post-bottom-share:before,.post-bottom-share:after{display:table;content:"";}
+.post-bottom-share:after{clear:both;}
 .single{padding:20px;margin-bottom:30px;background-color:#ffffff;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}.single h1{margin-bottom:10px;font-size:32px;line-height:1;color:#222222;letter-spacing:-1px;}
 .single p{font-size:13px;line-height:18px;color:#333333;}
 .banner{padding:30px;margin-bottom:30px;background:#01386e url(../img/banner.jpg) center no-repeat;}.banner h1{margin-bottom:10px;font-size:42px;line-height:1;color:#ffffff;letter-spacing:-1px;}
