@@ -8,7 +8,7 @@ layout: nil
  <link href="http://xemplar.io/atom.xml" rel="self"/>
  <link href="http://xemplar.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://blog.xemplar.io/</id>
+ <id>http://www.xemplar.io/blog/</id>
  <author>
    <name>Bryan Burke</name>
    <email>bryan.burke@xemplar.io</email>
@@ -17,10 +17,10 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://blog.xemplar.io{{ post.url }}"/>
+   <link href="{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://blog.xemplar.io{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <id>http://www.xemplar.io{{post.url}}</id>
+   <content type="html">{{ post.abstract | xml_escape }}</content>
  </entry>
  {% endfor %}
 
